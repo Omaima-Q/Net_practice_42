@@ -63,6 +63,7 @@ The lower the layer, the closer you are to the hardware and the more detailed th
 
 <div align="center">1. The four layers of the TCP/IP protocol stack.</div>
 
+
 The idea behind the TCP/IP protocol stack is to use layers to abstract away the underlying complexity.
 
 Two applications that want to exchange data over the Internet will both use protocols in the layer #4, then they rely on protocols from the layers below for the actual transmission or reception.
@@ -84,3 +85,4 @@ The HTTP protocol doesn't care about it: instead, it relies on services provided
 <div align="center"><img width="742" height="565" alt="tcp-ip-end-to-end (1)" src="https://github.com/user-attachments/assets/0c93225b-f289-47b4-ad06-b2a5083f4b9b" /></div>
 
 <div align="center">2. A message that flows between two computers across the layers of the TCP/IP protocol stack.</div>
+
