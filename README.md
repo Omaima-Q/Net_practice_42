@@ -29,3 +29,14 @@ Two machines that want to communicate over the Internet must both implement the 
 The HTTP protocol determines how the text you are reading right now should be sent from the web server — the remote computer that stores the information — to your web browser, over the Internet.
 
 The protocol also describes how your browser should talk to the web server in order to initiate the data exchange.
+
+Many other software parts must be TCP/IP compliant.
+
+**For example**, the operating system running on your device has to implement several protocols from the TCP/IP suite, in order to provide Internet capabilities to the entire system (web browser included!).
+
+## TCP/IP is about the software side of things
+
+You won't find instructions on how to build networks, how signals should travel through cables and so on: the TCP/IP protocol stack is designed to be hardware independent and may be implemented on top of any physical technology.
+
+**For example**, some IETF engineers during the April Fool's day designed the IP over Avian Carriers (IPoAC): a proposal to carry Internet traffic by birds such as homing pigeons.
+
