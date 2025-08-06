@@ -50,7 +50,7 @@ Each layer contains protocols that describe how to route/transmit/receive data a
 
 The lower the layer, the closer you are to the hardware and the more detailed the instructions are; the higher the layer, the closer you are to the human and the more abstract the communication becomes. Let's take a bottom-up look:
 
-**1.Link layer** — also known as the physical layer, it contains protocols that operate very close to the metal. Protocols in this layer see the network as a bunch of machines physically linked together that exchange bits of data;
+**1. Link layer** — also known as the physical layer, it contains protocols that operate very close to the metal. Protocols in this layer see the network as a bunch of machines physically linked together that exchange bits of data;
 
 **2. Network layer**— also known as the Internet layer, this is where the communication starts to get fancy. Protocols in this layer think in terms of source networks and destination networks and how to identify them;
 
