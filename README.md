@@ -58,6 +58,6 @@ The lower the layer, the closer you are to the hardware and the more detailed th
 
 **4. Application layer** — the most abstract layer, where protocols think in terms of user services that exchange application data over the network.
 
-<center> <img width="262" height="440" alt="tcp-ip-stack" src="https://github.com/user-attachments/assets/b0d7a3c0-661a-4c1b-ab40-99c0c268f34b" /> </center>
+<div align="center"> <img width="262" height="440" alt="tcp-ip-stack" src="https://github.com/user-attachments/assets/b0d7a3c0-661a-4c1b-ab40-99c0c268f34b" /> </div>
 
 
