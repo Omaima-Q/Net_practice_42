@@ -17,3 +17,9 @@ The Internet Protocol Suite is a collection of protocols — that's what the wor
 The TCP/IP alias comes from two of the most important protocols the Internet Protocol Suite contains:
 
 the **Transmission Control Protocol (TCP)** and the **Internet Protocol (IP)**.
+
+Initially developed by the United States Department of Defense and now maintained by the Internet Engineering Task Force (IETF), the TCP/IP protocol stack defines how data should be handled, transmitted, routed, and received over the Internet.
+
+Anything that is connected to the Internet or operates with it must comply with the rules defined in the TCP/IP protocol stack.
+
+Two machines that want to communicate over the Internet must both implement the TCP/IP protocol stack in order to talk to eachother correctly.
