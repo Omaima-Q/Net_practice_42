@@ -40,3 +40,21 @@ You won't find instructions on how to build networks, how signals should travel 
 
 **For example**, some IETF engineers during the April Fool's day designed the IP over Avian Carriers (IPoAC): a proposal to carry Internet traffic by birds such as homing pigeons.
 
+## Anatomy of the TCP/IP protocol stack 
+
+Cables and computers that make up the Internet infrastructure understand a very simple binary language made of zeroes and ones, and yet we want to be able to move rich data around such as web pages, emails, movies, video calls, … in a reliable, error-free and easy to establish way. 
+
+This is a complex problem that must be broken down into smaller pieces to be solved efficiently. For this reason, the TCP/IP protocol stack has been organized into four layers.
+
+Each layer contains protocols that describe how to route/transmit/receive data according to a different level of abstraction.
+
+The lower the layer, the closer you are to the hardware and the more detailed the instructions are; the higher the layer, the closer you are to the human and the more abstract the communication becomes. Let's take a bottom-up look:
+
+**1.Link layer** — also known as the physical layer, it contains protocols that operate very close to the metal. Protocols in this layer see the network as a bunch of machines physically linked together that exchange bits of data;
+
+**2. Network layer**— also known as the Internet layer, this is where the communication starts to get fancy. Protocols in this layer think in terms of source networks and destination networks and how to identify them;
+
+**3. Transport layer** — here the communication becomes even more abstract. Protocols in this layer think in terms of processes that talk to eachother through specific channels;
+
+**4. Application layer** — the most abstract layer, where protocols think in terms of user services that exchange application data over the network.
+
