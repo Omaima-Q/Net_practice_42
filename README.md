@@ -23,3 +23,9 @@ Initially developed by the United States Department of Defense and now maintaine
 Anything that is connected to the Internet or operates with it must comply with the rules defined in the TCP/IP protocol stack.
 
 Two machines that want to communicate over the Internet must both implement the TCP/IP protocol stack in order to talk to eachother correctly.
+
+**For example**, the web browser you are using to read this article implements the **Hypertext Transfer Protocol (HTTP)**, one of the many protocols in the TCP/IP protocol stack and the foundation of the World Wide Web (WWW).
+
+The HTTP protocol determines how the text you are reading right now should be sent from the web server — the remote computer that stores the information — to your web browser, over the Internet.
+
+The protocol also describes how your browser should talk to the web server in order to initiate the data exchange.
