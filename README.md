@@ -60,4 +60,5 @@ The lower the layer, the closer you are to the hardware and the more detailed th
 
 <div align="center"> <img width="262" height="440" alt="tcp-ip-stack" src="https://github.com/user-attachments/assets/b0d7a3c0-661a-4c1b-ab40-99c0c268f34b" /> </div>
 
-<center>1. The four layers of the TCP/IP protocol stack.</center> 
+<div align="center">1. The four layers of the TCP/IP protocol stack.</div>
+
