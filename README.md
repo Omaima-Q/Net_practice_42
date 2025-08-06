@@ -86,3 +86,13 @@ The HTTP protocol doesn't care about it: instead, it relies on services provided
 
 <div align="center">2. A message that flows between two computers across the layers of the TCP/IP protocol stack.</div>
 
+Protocols in layer #3 solve the upper layer's problems, yet they are still far away from true machine-to-machine interaction.
+
+For example: how is the address of the web server determined? Again, the software that implements the layer #3 protocols doesn't care about it: it relies on the Network layer (#2) below to handle such details.
+
+The pattern repeats until the Link layer (#1) is reached, where the data is physically transmitted over Internet cables.
+
+At this point the message is flying across the Internet infrastructure. The information will eventually reach the web server: here the software that implements the HTTP protocol will rely on the underlying layers to transform the incoming data into something that the software can understand.
+
+Once done, the server can parse the data in the Application layer (#4) and react to the web browser's request. Notice how the data here goes through the layers in reverse order.
+
