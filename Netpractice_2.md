@@ -1,9 +1,14 @@
-<div style="font-family: Arial, sans-serif;">Arial (Clean, modern)</div>
-<div style="font-family: Helvetica, sans-serif;">Helvetica (Swiss design)</div>
-<div style="font-family: Verdana, sans-serif;">Verdana (Web optimized)</div>
-<div style="font-family: 'Trebuchet MS', sans-serif;">Trebuchet MS</div>
-<div style="font-family: 'Lucida Sans', sans-serif;">Lucida Sans</div>
-<div style="font-family: Century Gothic;">Understand TCP/IP addressing and subnetting basics</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div style="font-family: 'Roboto', sans-serif;">
+        This should work locally
+    </div>
+</body>
+</html>
 
 # Understand TCP/IP addressing and subnetting basics
 
