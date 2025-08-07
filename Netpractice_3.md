@@ -26,3 +26,13 @@ So now you know, for this example using a 255.255.255.0 subnet mask, that the ne
 When a packet arrives on the 192.168.123.0 subnet (from the local subnet or a remote network), and it has a destination address of 192.168.123.132, your computer will receive it from the network and process it.
 
 Almost all decimal subnet masks convert to binary numbers that are all ones on the left and all zeros on the right. Some other common subnet masks are:
+
+Decimal	Binary
+255.255.255.192	1111111.11111111.1111111.11000000
+255.255.255.224	1111111.11111111.1111111.11100000
+
+| IP Address    | Subnet Mask   | Network Address | Host Range        |
+|---------------|---------------|-----------------|-------------------|
+| 192.168.1.10  | 255.255.255.0 | 192.168.1.0     | 192.168.1.1-254   |
+| 10.0.0.5      | 255.0.0.0     | 10.0.0.0        | 10.0.0.1-254      |
+| 172.16.5.20   | 255.255.0.0   | 172.16.0.0      | 172.16.0.1-65534  |
