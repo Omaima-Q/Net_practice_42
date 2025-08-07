@@ -18,7 +18,7 @@ A subnet mask is used to divide an IP address into two parts. One part identifie
 
 ## IP addresses: Networks and hosts
 
-An IP address is a 32-bit number. It uniquely identifies a host (computer or other device, such as a printer or router) on a TCP/IP network.
+An IP address is a **32-bit number**. It uniquely identifies a host (computer or other device, such as a printer or router) on a TCP/IP network.
 
 IP addresses are normally expressed in dotted-decimal format, with four numbers separated by periods, such as **192.168.123.132**. To understand how subnet masks are used to distinguish between hosts, networks, and subnetworks, examine an IP address in binary notation.
 
