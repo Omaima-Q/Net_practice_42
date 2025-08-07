@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div style="font-family: 'Roboto', sans-serif;">
-        This should work locally
-    </div>
-</body>
-</html>
 
 # Understand TCP/IP addressing and subnetting basics
 
