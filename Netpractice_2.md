@@ -1,7 +1,6 @@
 
-<div style="font-family: ;">
-Understand TCP/IP addressing and subnetting basics
-</div>
+<div style="font-family: ;">Understand TCP/IP addressing and subnetting basics</div>
+
 # Understand TCP/IP addressing and subnetting basics
 
 ## Summary
