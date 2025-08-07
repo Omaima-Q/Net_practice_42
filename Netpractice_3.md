@@ -27,11 +27,12 @@ When a packet arrives on the 192.168.123.0 subnet (from the local subnet or a re
 
 Almost all decimal subnet masks convert to binary numbers that are all ones on the left and all zeros on the right. Some other common subnet masks are:
 
-Decimal	Binary
-255.255.255.192	1111111.11111111.1111111.11000000
-255.255.255.224	1111111.11111111.1111111.11100000
+| Decimal           | Binary                                   | CIDR | Host Bits | Usable Hosts|
+|-------------------|------------------------------------------|------|-----------|-------------|
+| 255.255.255.192   | 11111111.11111111.11111111.11000000      | /26  | 6         | 62          |
+| 255.255.255.224   | 11111111.11111111.11111111.11100000      | /27  | 5         | 30          |
 
-| IP Address    | Subnet Mask   | Network Address | Host Range        |
+| Decimal    | Subnet Mask   | Network Address | Host Range        |
 |---------------|---------------|-----------------|-------------------|
 | 192.168.1.10  | 255.255.255.0 | 192.168.1.0     | 192.168.1.1-254   |
 | 10.0.0.5      | 255.0.0.0     | 10.0.0.0        | 10.0.0.1-254      |
