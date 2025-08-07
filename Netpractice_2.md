@@ -4,9 +4,9 @@
 
 When you configure the TCP/IP protocol on a Windows computer, the TCP/IP configuration settings require:
 ```
-An IP address
-A subnet mask
-A default gateway
+1. An IP address
+2. A subnet mask
+3. A default gateway
 ```
 To configure TCP/IP correctly, it's necessary to understand how TCP/IP networks are addressed and divided into networks and subnetworks.
 
