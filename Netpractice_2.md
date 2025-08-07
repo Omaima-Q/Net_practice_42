@@ -24,3 +24,11 @@ An IP address is a **32-bit number**. It uniquely identifies a host (computer or
 IP addresses are normally expressed in dotted-decimal format, with four numbers separated by periods, such as **192.168.123.132**. To understand how subnet masks are used to distinguish between hosts, networks, and subnetworks, examine an IP address in binary notation.
 
 **For example**, the dotted-decimal IP address **192.168.123.132** is (in binary notation) the 32-bit number **11000000101010000111101110000100**. This number may be hard to make sense of, so divide it into four parts of eight binary digits.
+
+These 8-bit sections are known as octets. The example IP address, then, becomes **11000000.10101000.01111011.10000100**. This number only makes a little more sense, so for most uses, convert the binary address into dotted-decimal format (192.168.123.132). The decimal numbers separated by periods are the octets converted from binary to decimal notation.
+
+For a **TCP/IP** **wide area network (WAN)** to work efficiently as a collection of networks, the routers that pass packets of data between networks don't know the exact location of a host for which a packet of information is destined. Routers only know what network the host is a member of and use information stored in their route table to determine how to get the packet to the destination host's network. After the packet is delivered to the destination's network, the packet is delivered to the appropriate host.
+
+For this process to work, an IP address has two parts. The first part of an IP address is used as a network address, the last part as a host address. If you take the example 192.168.123.132 and divide it into these two parts, you get 192.168.123. Network .132 Host or 192.168.123.0 - network address. 0.0.0.132 - host address.
+
+
