@@ -12,7 +12,7 @@ So, the subnet mask is 11111111.11111111.11111111.00000000.
 
 Lining up the IP address and the subnet mask together, the network, and host portions of the address can be separated:
 ```
-11000000.10101000.01111011.10000100 - IP address (192.168.123.132)**
+11000000.10101000.01111011.10000100 - IP address (192.168.123.132)
 11111111.11111111.11111111.00000000 - Subnet mask (255.255.255.0)
 ```
 The first 24 bits (the number of ones in the subnet mask) are identified as the network address.
