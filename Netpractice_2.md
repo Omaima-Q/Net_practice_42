@@ -1,4 +1,8 @@
-
+<div style="font-family: Arial, sans-serif;">Arial (Clean, modern)</div>
+<div style="font-family: Helvetica, sans-serif;">Helvetica (Swiss design)</div>
+<div style="font-family: Verdana, sans-serif;">Verdana (Web optimized)</div>
+<div style="font-family: 'Trebuchet MS', sans-serif;">Trebuchet MS</div>
+<div style="font-family: 'Lucida Sans', sans-serif;">Lucida Sans</div>
 <div style="font-family: Century Gothic;">Understand TCP/IP addressing and subnetting basics</div>
 
 # Understand TCP/IP addressing and subnetting basics
